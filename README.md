@@ -1,1 +1,1 @@
-https://github.com/andrespi97/PORTFOLIO/deployments/github-pages
+https://andrespi97.github.io/PORTFOLIO/
