@@ -1,0 +1,144 @@
+body {
+  font-family: "Trip Sans Ultra", Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+  color: rgba(17, 0, 143, 1);
+}
+section {
+  background-color: antiquewhite;
+  color: black;
+}
+footer,
+footer div,
+footer div a {
+  color: rgba(17, 0, 143, 1);
+  background-color: antiquewhite;
+}
+
+div.divider {
+  width: 90%;
+  margin: auto;
+  height: 2px; /* Altura de la línea */
+  border-bottom: 1px solid rgba(17, 0, 143, 1);
+}
+.btn-primary {
+  background-color: rgba(17, 0, 143, 1);
+  border-color: rgba(17, 0, 143, 1);
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  h1 p,
+  .h1 {
+    font-size: 1.5em;
+  }
+  .profile-img {
+    margin-bottom: -12%; /* Ajusta este valor según lo necesites */ /* Ajusta este valor según lo necesites */
+  }
+  nav div a span {
+    font-size: 3rem;
+  }
+  .nav-link {
+    font-size: 2rem !important;
+  }
+  .small {
+    font-size: 2em;
+  }
+}
+@media (min-width: 992px) {
+  h1 p,
+  .h1 {
+    font-size: 3em;
+  }
+  .profile-img {
+    margin-bottom: -12%; /* Ajusta este valor según lo necesites */ /* Ajusta este valor según lo necesites */
+  }
+  .nowrap {
+    text-wrap: nowrap;
+  }
+  .nicefont {
+    font-size: 4em !important;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+@media (min-width: 1200px) {
+  h1 p,
+  .h1 {
+    font-size: 3.5em;
+  }
+  .profile-img {
+    margin-bottom: -13%; /* Ajusta este valor según lo necesites */ /* Ajusta este valor según lo necesites */
+  }
+}
+@media (min-width: 1400px) {
+  h1 p,
+  .h1 {
+    font-size: 4em;
+  }
+  .profile-img {
+    margin-bottom: -11%; /* Ajusta este valor según lo necesites */ /* Ajusta este valor según lo necesites */
+  }
+}
+.profile-img {
+  margin-bottom: -12.5%; /* Ajusta este valor según lo necesites */ /* Ajusta este valor según lo necesites */
+}
+.navbar {
+  padding: 0;
+}
+.nav-link {
+  color: black;
+  font-size: 1rem;
+}
+.borde {
+  margin-bottom: -9%;
+  border: 10px solid black;
+  background-color: lightblue;
+}
+
+.nicefont {
+  /* <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 400 to 700*/
+  font-size: 2.5em;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h3.nicefont {
+  font-size: 2em;
+}
+.h2 {
+  text-shadow: 0 0 6px rgb(34, 34, 34, 0.2) !important; /* Desplazamiento x, y, desenfoque, color */
+}
+.fondo {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(17, 0, 143, 1) 50%
+  );
+}
+footer,
+footer a {
+  color: black;
+  font-size: 2em;
+}
+.nav-item {
+  display: inline-flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+.nav-link {
+  margin-right: 2px; /* Espacio entre el texto y el icono */
+  font-size: 1rem;
+}
+.referencia {
+  font-size: 0.5em;
+}
+.small {
+  font-size: 1.2em;
+}
+.empresa {
+  color: rgba(17, 0, 143, 1);
+}
